@@ -1,0 +1,22 @@
+{block content}
+
+
+<div id="content">
+
+    <h3>{$title}</h3>
+    <br/>
+
+    {include 'parts/menu.latte'}
+
+	<strong>Podmínka:</strong><br />
+	{$condition}
+	<br /><br />
+
+	{foreach $jokes as $j}
+        {$j['part1']} <br/>
+        <img src="https://www.digilabs.cz/hiring/chuck.jpg" style="width: 200px;"/> <br/>
+    {$j['part2']} <br/><br/>
+    {/foreach}
+
+
+</div>

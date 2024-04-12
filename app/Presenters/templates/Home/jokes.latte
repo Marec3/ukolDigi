@@ -1,0 +1,27 @@
+{block content}
+
+<div id="content">
+
+    <h3>{$title}</h3>
+    <br/>
+
+    {include 'parts/menu.latte'}
+
+	<strong>Podmínka:</strong><br />
+	{$condition}
+	<br /><br />
+
+	{foreach $jokes as $j}
+        <ul>
+            <li><strong>id:</strong> {$j->id}</li>
+            <li><strong>name:</strong> {$j->name}</li>
+            <li><strong>firstNumber:</strong> {$j->firstNumber}</li>
+            <li><strong>secondNumber:</strong> {$j->secondNumber}</li>
+            <li><strong>thirdNumber:</strong> {$j->thirdNumber}</li>
+            <li><strong>calculation:</strong> {$j->calculation}</li>
+            <li><strong>joke:</strong> {$j->joke}</li>
+            <li><strong>createdAt:</strong> {$j->createdAt}</li>
+        </ul>
+    {/foreach}
+
+</div>
