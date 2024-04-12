@@ -36,14 +36,9 @@ V prohlížeči otevřít url:
 Ovládání aplikace
 ===================
 
-
-Načtení aplikace:
-----------------
-
 Po načtení aplikace se zobrazí odkaz na "Akci 1". Kliknutím na tento odkaz přejdete na stránku aplikace s dalšími tlačítky s akcemi. Tím se začíná u Akce 1.
 
 Volba akcí:
 ----------------
 
-Na stránce s tlačítky akcí můžete vybrat libovolnou akci kliknutím na odpovídající tlačítko.
-Kliknutím na tlačítko provedete vybranou akci. Výsledek akce se zobrazí na stránce.
+Na stránce s tlačítky akcí můžete vybrat libovolnou akci kliknutím na odpovídající tlačítko. Výsledek akce se zobrazí na stránce.
